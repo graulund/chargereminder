@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A155032F1A7AB1B10039E034 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A155032E1A7AB1B10039E034 /* AppDelegate.m */; };
+		A15503311A7AB1B10039E034 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A15503301A7AB1B10039E034 /* main.m */; };
+		A15503361A7AB1B10039E034 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A15503351A7AB1B10039E034 /* Images.xcassets */; };
+		A15503391A7AB1B10039E034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A15503371A7AB1B10039E034 /* Main.storyboard */; };
+		A15503451A7AB1B10039E034 /* Charge_ReminderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A15503441A7AB1B10039E034 /* Charge_ReminderTests.m */; };
+		A1FE20CB1A837DBA00B69836 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1FE20CA1A837DBA00B69836 /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A155033F1A7AB1B10039E034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A15503201A7AB1B10039E034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A15503271A7AB1B10039E034;
+			remoteInfo = "Charge Reminder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A15503281A7AB1B10039E034 /* Charge Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Charge Reminder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A155032C1A7AB1B10039E034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A155032D1A7AB1B10039E034 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A155032E1A7AB1B10039E034 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A15503301A7AB1B10039E034 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A15503351A7AB1B10039E034 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A15503381A7AB1B10039E034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A155033E1A7AB1B10039E034 /* Charge ReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Charge ReminderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A15503431A7AB1B10039E034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A15503441A7AB1B10039E034 /* Charge_ReminderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Charge_ReminderTests.m; sourceTree = "<group>"; };
+		A1FE20CA1A837DBA00B69836 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A15503251A7AB1B10039E034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1FE20CB1A837DBA00B69836 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A155033B1A7AB1B10039E034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A155031F1A7AB1B10039E034 = {
+			isa = PBXGroup;
+			children = (
+				A155032A1A7AB1B10039E034 /* Charge Reminder */,
+				A15503411A7AB1B10039E034 /* Charge ReminderTests */,
+				A15503291A7AB1B10039E034 /* Products */,
+				A1FE20C91A837DAA00B69836 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A15503291A7AB1B10039E034 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A15503281A7AB1B10039E034 /* Charge Reminder.app */,
+				A155033E1A7AB1B10039E034 /* Charge ReminderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A155032A1A7AB1B10039E034 /* Charge Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				A155032D1A7AB1B10039E034 /* AppDelegate.h */,
+				A155032E1A7AB1B10039E034 /* AppDelegate.m */,
+				A15503351A7AB1B10039E034 /* Images.xcassets */,
+				A15503371A7AB1B10039E034 /* Main.storyboard */,
+				A155032B1A7AB1B10039E034 /* Supporting Files */,
+			);
+			path = "Charge Reminder";
+			sourceTree = "<group>";
+		};
+		A155032B1A7AB1B10039E034 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A155032C1A7AB1B10039E034 /* Info.plist */,
+				A15503301A7AB1B10039E034 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A15503411A7AB1B10039E034 /* Charge ReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				A15503441A7AB1B10039E034 /* Charge_ReminderTests.m */,
+				A15503421A7AB1B10039E034 /* Supporting Files */,
+			);
+			path = "Charge ReminderTests";
+			sourceTree = "<group>";
+		};
+		A15503421A7AB1B10039E034 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A15503431A7AB1B10039E034 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1FE20C91A837DAA00B69836 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1FE20CA1A837DBA00B69836 /* IOKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A15503271A7AB1B10039E034 /* Charge Reminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A15503481A7AB1B10039E034 /* Build configuration list for PBXNativeTarget "Charge Reminder" */;
+			buildPhases = (
+				A15503241A7AB1B10039E034 /* Sources */,
+				A15503251A7AB1B10039E034 /* Frameworks */,
+				A15503261A7AB1B10039E034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Charge Reminder";
+			productName = "Charge Reminder";
+			productReference = A15503281A7AB1B10039E034 /* Charge Reminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A155033D1A7AB1B10039E034 /* Charge ReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A155034B1A7AB1B10039E034 /* Build configuration list for PBXNativeTarget "Charge ReminderTests" */;
+			buildPhases = (
+				A155033A1A7AB1B10039E034 /* Sources */,
+				A155033B1A7AB1B10039E034 /* Frameworks */,
+				A155033C1A7AB1B10039E034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A15503401A7AB1B10039E034 /* PBXTargetDependency */,
+			);
+			name = "Charge ReminderTests";
+			productName = "Charge ReminderTests";
+			productReference = A155033E1A7AB1B10039E034 /* Charge ReminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A15503201A7AB1B10039E034 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Pongsocket;
+				TargetAttributes = {
+					A15503271A7AB1B10039E034 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A155033D1A7AB1B10039E034 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A15503271A7AB1B10039E034;
+					};
+				};
+			};
+			buildConfigurationList = A15503231A7AB1B10039E034 /* Build configuration list for PBXProject "Charge Reminder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A155031F1A7AB1B10039E034;
+			productRefGroup = A15503291A7AB1B10039E034 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A15503271A7AB1B10039E034 /* Charge Reminder */,
+				A155033D1A7AB1B10039E034 /* Charge ReminderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A15503261A7AB1B10039E034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15503361A7AB1B10039E034 /* Images.xcassets in Resources */,
+				A15503391A7AB1B10039E034 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A155033C1A7AB1B10039E034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A15503241A7AB1B10039E034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15503311A7AB1B10039E034 /* main.m in Sources */,
+				A155032F1A7AB1B10039E034 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A155033A1A7AB1B10039E034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A15503451A7AB1B10039E034 /* Charge_ReminderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A15503401A7AB1B10039E034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A15503271A7AB1B10039E034 /* Charge Reminder */;
+			targetProxy = A155033F1A7AB1B10039E034 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A15503371A7AB1B10039E034 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A15503381A7AB1B10039E034 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A15503461A7AB1B10039E034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A15503471A7AB1B10039E034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A15503491A7AB1B10039E034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Charge Reminder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A155034A1A7AB1B10039E034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Charge Reminder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A155034C1A7AB1B10039E034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Charge ReminderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Charge Reminder.app/Contents/MacOS/Charge Reminder";
+			};
+			name = Debug;
+		};
+		A155034D1A7AB1B10039E034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Charge ReminderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Charge Reminder.app/Contents/MacOS/Charge Reminder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A15503231A7AB1B10039E034 /* Build configuration list for PBXProject "Charge Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15503461A7AB1B10039E034 /* Debug */,
+				A15503471A7AB1B10039E034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A15503481A7AB1B10039E034 /* Build configuration list for PBXNativeTarget "Charge Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A15503491A7AB1B10039E034 /* Debug */,
+				A155034A1A7AB1B10039E034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A155034B1A7AB1B10039E034 /* Build configuration list for PBXNativeTarget "Charge ReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A155034C1A7AB1B10039E034 /* Debug */,
+				A155034D1A7AB1B10039E034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A15503201A7AB1B10039E034 /* Project object */;
+}
